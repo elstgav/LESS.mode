@@ -475,6 +475,7 @@
 					<regex>(?i)(lighter)</regex>
 					<regex>(?i)(lime)</regex>
 					<regex>(?i)(linear)</regex>
+					<regex>(?i)(linear-gradient)</regex>
 					<regex>(?i)(line-through)</regex>
 					<regex>(?i)(lines)</regex>
 					<regex>(?i)(list-item)</regex>
@@ -551,6 +552,7 @@
 					<regex>(?i)(purple)</regex>
 					<regex>(?i)(push-button)</regex>
 					<regex>(?i)(radial)</regex>
+					<regex>(?i)(radial-gradient)</regex>
 					<regex>(?i)(radio)</regex>
 					<regex>(?i)(read-only)</regex>
 					<regex>(?i)(read-write-plaintext-only)</regex>
