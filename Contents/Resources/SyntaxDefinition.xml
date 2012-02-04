@@ -701,7 +701,7 @@
 				</keywords>
 
 				<keywords id="Digits" color="#00f" font-style="normal" useforautocomplete="yes">
-					<regex>(?&lt;![#\d\w-])(-?[\d]+[ \t]*(?:px|pt|em|ex|cm|in|mm|pc|s|ms|Hz|kHz|%|deg|rad|grad|turn)?)</regex>
+					<regex>(?&lt;![#\d\w-])(-?[\d]+[ \t]*(?:px|pt|em|ex|cm|in|mm|pc|s|ms|Hz|kHz|%|deg|rad|grad|turn|n)?)</regex>
 				</keywords>
 
 				<keywords id="Colors" color="#760f15" font-style="normal" useforautocomplete="yes">
