@@ -54,7 +54,94 @@
 			</keywords>
 
 
-
+			
+			<keywords id="HTML Elements" type="string" color="#5859b7" font-weight="normal" font-style="normal">
+				<regex>(?i)(?&lt;=\s)(a)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(abbr)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(acronym)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(address)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(applet)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(area)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(b)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(base)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(basefont)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(bdo)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(big)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(blockquote)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(body)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(br)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(button)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(caption)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(center)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(cite)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(code)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(col)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(colgroup)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(dd)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(del)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(dfn)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(dir)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(div)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(dl)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(dt)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(em)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(fieldset)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(font)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(form)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(frame)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(frameset)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(h1)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(head)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(hr)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(html)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(i)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(iframe)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(img)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(input)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(ins)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(kbd)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(label)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(legend)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(li)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(link)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(map)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(menu)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(meta)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(noframes)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(noscript)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(object)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(ol)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(optgroup)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(option)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(p)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(param)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(pre)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(q)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(s)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(samp)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(script)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(select)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(small)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(span)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(strike)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(strong)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(style)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(sub)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(sup)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(table)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(tbody)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(td)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(textarea)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(tfoot)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(th)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(thead)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(title)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(tr)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(tt)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(u)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(ul)(?=[\.\s\[#,])</regex>
+				<regex>(?i)(?&lt;=\s)(var)(?=[\.\s\[#,])</regex>
+			</keywords>
 
 
 			<state id="Inside curly brackets" color="#000" background-color="#fff" font-weight="normal" font-style="normal">
