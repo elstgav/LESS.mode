@@ -38,6 +38,7 @@
 			<keywords id="CSS Rules" type="string" color="#d01b24" useforautocomplete="no">
 				<string>@import</string>
 				<string>@media</string>
+				<string>!important</string>
 			</keywords>
 		
 			<state id="String" type="string" color="#259185" font-weight="normal" font-style="normal">
