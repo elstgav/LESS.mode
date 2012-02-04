@@ -310,6 +310,8 @@
 				<keywords id="Attributes" font-style="normal" color="#9B4400" useforautocomplete="yes">
 					<regex>(?i)(-webkit(?:-\w+)+)</regex>
 					<regex>(?i)(-moz(?:-\w+)+)</regex>
+					<regex>(?i)(-ms(?:-\w+)+)</regex>
+					<regex>(?i)(-o(?:-\w+)+)</regex>
 					<regex>(?i)(!important)</regex>	
 					<regex>(?i)(100)</regex>
 					<regex>(?i)(200)</regex>
