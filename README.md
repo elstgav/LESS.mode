@@ -39,7 +39,7 @@ Kickass LESS Syntax detects:
 Notes for contributors
 ------------------------------------
 
-This syntax mode is based on the [SubEthaEdit Mode File Format](http://www.codingmonkeys.de/subethaedit/mode.html). Read the [documentation](http://www.codingmonkeys.de/subethaedit/mode.html) to learn about the structure and syntax.
+This syntax mode is based on the [SubEthaEdit Mode File Format](http://www.codingmonkeys.de/subethaedit/mode.html). Read the [documentation](http://www.codingmonkeys.de/subethaedit/mode.html) to learn about the structure and syntax. The meat of the syntax mode lives in `/Contents/Resources/SyntaxDefinition.xml`, so go there to see how the sausage is made.
 
 ###Regular Expressions###
 *	Flavor: Ruby
