@@ -74,8 +74,28 @@
 				<regex>:target(?=[\s\.,:])</regex>
 				<regex>:window-inactive(?=[\s\.,:])</regex>
 				<regex>:((?:first|last)-(?:child|of-type))(?=[\s\.,:])</regex>
-				<regex>:(nth-(?:child|of-type))(?=\()</regex>
+				<regex>:(nth-(?:child|of-type))</regex>
 			</keywords>
+			
+			<state id="Pseudo Selectors" type="string" color="#728905" font-style="normal" useforautocomplete="no">
+				<begin><regex>(?:(?&lt;=:nth-child)|(?&lt;=:nth-of-type))\(</regex></begin>
+				<end><regex>\)</regex></end>
+				
+				<keywords id="Operators" color="#728905" useforautocomplete="no">
+					<regex>(\+|\-)</regex>
+				</keywords>
+				
+				<keywords id="Digits" color="#00f" font-style="normal" useforautocomplete="yes">
+					<regex>(-?[\d]+n?)</regex>
+					<regex>(-?n)</regex>
+				</keywords>
+				
+				<keywords id="CSS Keywords" font-style="normal" color="#9B4400" useforautocomplete="yes">
+					<regex>(?i)(even)</regex>
+					<regex>(?i)(odd)</regex>
+				</keywords>
+			</state>
+			
 			
 			<keywords id="Selectors" type="string" color="#728905" font-style="normal" useforautocomplete="no">
 				<regex>(#[\w-]+(?=[\s\.,]))</regex>
