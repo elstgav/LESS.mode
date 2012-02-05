@@ -103,7 +103,7 @@
 			</keywords>
 
 			<keywords id="Selector Operators" color="#728905" font-style="normal" useforautocomplete="no">
-				<regex>(\+|\*|\&gt;|&amp;)</regex>
+				<regex>(\+|\*|~|\&gt;|&amp;)</regex>
 			</keywords>
 
 			
