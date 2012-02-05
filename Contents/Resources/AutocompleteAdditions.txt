@@ -77,8 +77,8 @@ pitch-range
 play-during
 position
 quotes
-richness
 right
+richness
 size
 speak
 speak-header
@@ -100,8 +100,8 @@ visibility
 voice-family
 volume
 white-space
-widows
 width
+widows
 word-spacing
 z-index
 background
