@@ -7,11 +7,11 @@
 	<key>CFBundleName</key>
 	<string>LESS</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>2.1</string>
 	<key>CFBundleVersion</key>
-	<string>2.0</string>
+	<string>2.1</string>
 	<key>CFBundleGetInfoString</key>
-	<string>2.0, © 2011 Gavin Elster gbe@uw.edu; 2010 Evadne Wu http://iridia.tw; 2009 Jose Prado http://pradador.com</string>
+	<string>2.1, © 2012 Gavin Elster gbe@uw.edu; 2010 Evadne Wu http://iridia.tw; 2009 Jose Prado http://pradador.com</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleInfoDictionaryVersion</key>
