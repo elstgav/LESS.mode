@@ -11,7 +11,7 @@ Installation
 
 Example
 ----------
-![screenshot of example code](screenshot.png)
+![screenshot of example code](https://github.com/elstgav/LESS.mode/raw/master/screenshot.png)
 
 *Example using [Solarized](http://ethanschoonover.com/solarized) Colors*
 
