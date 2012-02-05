@@ -74,8 +74,28 @@
 				<regex>:target(?=[\s\.,:])</regex>
 				<regex>:window-inactive(?=[\s\.,:])</regex>
 				<regex>:((?:first|last)-(?:child|of-type))(?=[\s\.,:])</regex>
-				<regex>:(nth-(?:child|of-type))(?=\()</regex>
+				<regex>:(nth-(?:child|of-type))</regex>
 			</keywords>
+			
+			<state id="Pseudo Selectors" type="string" color="#728905" font-style="normal" useforautocomplete="no">
+				<begin><regex>(?:(?&lt;=:nth-child)|(?&lt;=:nth-of-type))\(</regex></begin>
+				<end><regex>\)</regex></end>
+				
+				<keywords id="Operators" color="#728905" useforautocomplete="no">
+					<regex>(\+|\-)</regex>
+				</keywords>
+				
+				<keywords id="Digits" color="#00f" font-style="normal" useforautocomplete="yes">
+					<regex>(-?[\d]+n?)</regex>
+					<regex>(-?n)</regex>
+				</keywords>
+				
+				<keywords id="CSS Keywords" font-style="normal" color="#9B4400" useforautocomplete="yes">
+					<regex>(?i)(even)</regex>
+					<regex>(?i)(odd)</regex>
+				</keywords>
+			</state>
+			
 			
 			<keywords id="Selectors" type="string" color="#728905" font-style="normal" useforautocomplete="no">
 				<regex>(#[\w-]+(?=[\s\.,]))</regex>
@@ -83,7 +103,7 @@
 			</keywords>
 
 			<keywords id="Selector Operators" color="#728905" font-style="normal" useforautocomplete="no">
-				<regex>(\+|\*|\&gt;|&amp;)</regex>
+				<regex>(\+|\*|~|\&gt;|&amp;)</regex>
 			</keywords>
 
 			
@@ -305,11 +325,17 @@
 				<keywords id="Operators" color="#728905" useforautocomplete="no">
 					<regex>(\+|\-|\/|\*)</regex>
 				</keywords>
+				
+				
+				<keywords id="!important" color="#d01b24" useforautocomplete="no">
+					<regex>(?i)(!important)</regex>
+				</keywords>
 
 				<keywords id="Attributes" font-style="normal" color="#9B4400" useforautocomplete="yes">
 					<regex>(?i)(-webkit(?:-\w+)+)</regex>
 					<regex>(?i)(-moz(?:-\w+)+)</regex>
-					<regex>(?i)(!important)</regex>	
+					<regex>(?i)(-ms(?:-\w+)+)</regex>
+					<regex>(?i)(-o(?:-\w+)+)</regex>
 					<regex>(?i)(100)</regex>
 					<regex>(?i)(200)</regex>
 					<regex>(?i)(300)</regex>
@@ -472,6 +498,7 @@
 					<regex>(?i)(lighter)</regex>
 					<regex>(?i)(lime)</regex>
 					<regex>(?i)(linear)</regex>
+					<regex>(?i)(linear-gradient)</regex>
 					<regex>(?i)(line-through)</regex>
 					<regex>(?i)(lines)</regex>
 					<regex>(?i)(list-item)</regex>
@@ -548,6 +575,7 @@
 					<regex>(?i)(purple)</regex>
 					<regex>(?i)(push-button)</regex>
 					<regex>(?i)(radial)</regex>
+					<regex>(?i)(radial-gradient)</regex>
 					<regex>(?i)(radio)</regex>
 					<regex>(?i)(read-only)</regex>
 					<regex>(?i)(read-write-plaintext-only)</regex>
@@ -693,7 +721,7 @@
 				</keywords>
 
 				<keywords id="Digits" color="#00f" font-style="normal" useforautocomplete="yes">
-					<regex>(?&lt;![#\d\w-])(-?[\d]+[ \t]*(?:px|pt|em|ex|cm|in|mm|pc|s|ms|Hz|kHz|%|deg|rad|grad|turn)?)</regex>
+					<regex>(?&lt;![#\d\w-])(-?[\d]+[ \t]*(?:px|pt|em|ex|cm|in|mm|pc|s|ms|Hz|kHz|%|deg|rad|grad|turn|n)?)</regex>
 				</keywords>
 
 				<keywords id="Colors" color="#760f15" font-style="normal" useforautocomplete="yes">
