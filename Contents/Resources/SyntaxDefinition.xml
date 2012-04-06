@@ -752,10 +752,13 @@
 				<keywords id="Colors" color="#760f15" font-style="normal" useforautocomplete="yes">
 					<regex>(?i)(\#[a-f\d]{3})</regex>
 					<regex>(?i)(\#[a-f\d]{6})</regex>
+					<regex>(?i)(\#[a-f\d]{8})</regex>
 					<regex>((?:rgb|hsl)a?(?=\())</regex>
+					<regex>(?i)(argb)(?=\()</regex>
 					<regex>(?i)(hue|saturation|lightness|alpha)(?=\()</regex>
 					<regex>(?i)((?:light|dark)en)(?=\()</regex>
 					<regex>(?i)((?:de)?saturate)(?=\()</regex>
+					<regex>(?i)(greyscale)(?=\()</regex>
 					<regex>(?i)(fade(?:in|out)?)(?=\()</regex>
 					<regex>(?i)(spin)(?=\()</regex>
 					<regex>(?i)(mix)(?=\()</regex>
