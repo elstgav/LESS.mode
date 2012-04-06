@@ -738,7 +738,7 @@
 					<regex>(?i)(yellow)</regex>
 				</keywords>
 
-				<keywords id="Digits" color="#00f" font-style="normal" useforautocomplete="yes">
+				<keywords id="Digits" color="#00f" font-style="normal" useforautocomplete="no">
 					<regex>(?&lt;![#\d\w-])(-?[\d]+[ \t]*(?:px|pt|em|ex|cm|in|mm|pc|s|ms|Hz|kHz|%|deg|rad|grad|turn|n)?)</regex>
 				</keywords>
 
@@ -746,7 +746,13 @@
 					<regex>(?i)(\#[a-f\d]{3})</regex>
 					<regex>(?i)(\#[a-f\d]{6})</regex>
 					<regex>((?:rgb|hsl)a?(?=\())</regex>
-					<regex>(?i)(hue|saturation|lightness|(?:light|dark)en|(?:de)?saturate|fade(?:in|out)|spin)</regex>
+					<regex>(?i)(hue|saturation|lightness|alpha)</regex>
+					<regex>(?i)((?:light|dark)en)</regex>
+					<regex>(?i)((?:de)?saturate)</regex>
+					<regex>(?i)(fade(?:in|out)?)</regex>
+					<regex>(?i)(spin)</regex>
+					<regex>(?i)(mix)</regex>
+					<regex>(?i)(color)</regex>
 				</keywords>
 
 				
