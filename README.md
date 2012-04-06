@@ -12,12 +12,13 @@ Installation
 Change Log
 ----------
 
-* ####2.2####
-	* Added math functions (`round()`, `ceil()`, `floor()`, and `percentage()`)
-	* Added new color functions (`mix()`, `color()`, `argb()`)
-	* Added detection for ARGB colors, e.g. #80FF00FF (violet with a 50% alpha)
-	* Made color function highlighting more specific (now requires them to be followed by a paren)
-	* Fixed class selectors being interpreted as mix-ins if followed by a pseudo-selector (namely, a colon)
+###2.2###
+
+* Added math functions (`round()`, `ceil()`, `floor()`, and `percentage()`)
+* Added new color functions (`mix()`, `color()`, `argb()`)
+* Added detection for ARGB colors, e.g. #80FF00FF (violet with a 50% alpha)
+* Made color function highlighting more specific (now requires them to be followed by a paren)
+* Fixed class selectors being interpreted as mix-ins if followed by a pseudo-selector (namely, a colon)
 
 Example
 ----------
