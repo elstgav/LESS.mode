@@ -741,18 +741,25 @@
 				<keywords id="Digits" color="#00f" font-style="normal" useforautocomplete="no">
 					<regex>(?&lt;![#\d\w-])(-?[\d]+[ \t]*(?:px|pt|em|ex|cm|in|mm|pc|s|ms|Hz|kHz|%|deg|rad|grad|turn|n)?)</regex>
 				</keywords>
+				
+				<keywords id="Math Functions" color="#728905" useforautocomplete="no">
+					<regex>(?i)(round)(?=\()</regex>
+					<regex>(?i)(ceil)(?=\()</regex>
+					<regex>(?i)(floor)(?=\()</regex>
+					<regex>(?i)(percentage)(?=\()</regex>
+				</keywords>
 
 				<keywords id="Colors" color="#760f15" font-style="normal" useforautocomplete="yes">
 					<regex>(?i)(\#[a-f\d]{3})</regex>
 					<regex>(?i)(\#[a-f\d]{6})</regex>
 					<regex>((?:rgb|hsl)a?(?=\())</regex>
-					<regex>(?i)(hue|saturation|lightness|alpha)</regex>
-					<regex>(?i)((?:light|dark)en)</regex>
-					<regex>(?i)((?:de)?saturate)</regex>
-					<regex>(?i)(fade(?:in|out)?)</regex>
-					<regex>(?i)(spin)</regex>
-					<regex>(?i)(mix)</regex>
-					<regex>(?i)(color)</regex>
+					<regex>(?i)(hue|saturation|lightness|alpha)(?=\()</regex>
+					<regex>(?i)((?:light|dark)en)(?=\()</regex>
+					<regex>(?i)((?:de)?saturate)(?=\()</regex>
+					<regex>(?i)(fade(?:in|out)?)(?=\()</regex>
+					<regex>(?i)(spin)(?=\()</regex>
+					<regex>(?i)(mix)(?=\()</regex>
+					<regex>(?i)(color)(?=\()</regex>
 				</keywords>
 
 				
