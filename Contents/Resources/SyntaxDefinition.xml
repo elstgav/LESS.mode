@@ -96,12 +96,19 @@
 				</keywords>
 			</state>
 			
-			
+			<!--
+				Selectors
+				i.e. Classes and IDs 
+			-->
 			<keywords id="Selectors" type="string" color="#728905" font-style="normal" useforautocomplete="no">
-				<regex>(#[\w-]+(?=[\s\.,]))</regex>
-				<regex>(\.[\w-]+(?=[\s\.,]))</regex>
+				<regex>(#[\w-]+(?=[\s\.,:]))</regex>
+				<regex>(\.[\w-]+(?=[\s\.,:]))</regex>
 			</keywords>
 
+			<!--
+				Selector Operators
+				e.g. .parent > .child, .class + .sibling, *.anyelement
+			-->
 			<keywords id="Selector Operators" color="#728905" font-style="normal" useforautocomplete="no">
 				<regex>(\+|\*|~|\&gt;|&amp;)</regex>
 			</keywords>
@@ -316,9 +323,20 @@
 			</keywords>
 
 
-
+			<!--
+				ATTRIBUTE STATE
+				
+				Ex: In "color: red;" This state captures ": red;"
+				Ex: In ".class{color: red}" This state captures ": red"
+			-->
 			<state id="Attribute State" color="#81908F" font-weight="normal" font-style="normal">
 
+				<!-- 
+					This assumes an attribute state starts with : and ends with ; or any 
+					character that precedes { or }
+					
+					Important to note that this assumes : is not preceded with a space
+				-->
 				<begin><regex>(?&lt;!\s):\s</regex></begin>
 				<end><regex>(;|.(?=[\{}]))</regex></end>
 
