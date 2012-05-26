@@ -9,6 +9,14 @@
 		<key>StartTag</key>
 		<string>/*</string>
 	</dict>
+	<key>Name</key>
+	<string>LESS</string>
+	<key>LineCompletion</key>
+	<string>;</string>
+	<key>VariablePrefixes</key>
+	<array>
+		<string>@</string>
+	</array>
 	<key>Completions</key>
 	<array>
 		<dict>
@@ -7575,9 +7583,5 @@
 			<string>[{;]\s*(/\*.*\*/\s*)*(?&lt;top&gt;[\w\-#():/\\]+)\s*\z</string>
 		</dict>
 	</array>
-	<key>LineCompletion</key>
-	<string>;</string>
-	<key>Name</key>
-	<string>LESS</string>
 </dict>
 </plist>
